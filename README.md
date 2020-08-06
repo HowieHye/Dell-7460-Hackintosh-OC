@@ -46,9 +46,13 @@
 
 ## 更新
 
-- 2020-08-05 - 更新`OC0.6.0`
+- 2020-08-05
+	- 更新`OC0.6.0`
+- 2020-08-06
+	- 更新`config.plist` , 修复安装/进入`Recovery`时显示俄语的错误
+	- 已经测试`Big Sur Beta3`全新引导安装
 
 ## 鸣谢
 
-- @[黑果小兵](https://github.com/daliansky/)
-- @[冰水加劲](https://github.com/xzhih/)
+- [@黑果小兵](https://github.com/daliansky/)
+- [@冰水加劲](https://github.com/xzhih/)
