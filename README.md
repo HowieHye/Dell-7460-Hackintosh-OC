@@ -4,7 +4,7 @@
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
-目前已经测试过`macOS Mojave 10.15.6(19G2005)`和`macOS Big Sur Developer Beta3(20A5323I)`全新安装、`macOS Mojave 10.15.6(19G2005)`OTA 直升`macOS Big Sur Developer Beta3(20A5323I)`
+目前已经测试过`macOS Mojave 10.15.6(19G2005)`和`macOS Big Sur Developer Beta3(20A5323I)`全新安装、`macOS Mojave 10.15.6(19G2005)`OTA 直升`Big Sur Public Beta1(20A5343j)`
 
 ## 电脑配置
 
