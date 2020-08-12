@@ -4,22 +4,22 @@
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
-目前已经测试过`macOS Mojave 10.15.6(19G2005)`、`macOS Big Sur Developer Beta3(20A5323I)`以及`macOS Big Sur Public Beta1(20A5343j)`全新安装、`macOS Mojave 10.15.6(19G2005)`OTA 直升`Big Sur Public Beta1(20A5343j)`
+目前已经测试过`macOS Catania 10.15.6(19G2005)`、`macOS Big Sur Developer Beta3(20A5323I)`以及`macOS Big Sur Public Beta1(20A5343j)`全新安装、`macOS Catania 10.15.6(19G2005)`OTA 直升`Big Sur Public Beta1(20A5343j)`
 
 ## 电脑配置
 
-| 规格     | 型号                                                                                      |
-| -------- | ----------------------------------------------------------------------------------------- |
-| 电脑型号 | `Dell Inspiron 7460`                                                                      |
-| 操作系统 | `macOS Big Sur Public Beta1(20A5343j)` && `macOS Mojave 10.15.6(19G2005)` && `Windows 10` |
-| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核                                                      |
-| 声卡     | `ALC256`                                                                                  |
-| 网卡     | 已更换为 `DW1560`                                                                         |
+| 规格     | 型号                                                                                       |
+| -------- | ------------------------------------------------------------------------------------------ |
+| 电脑型号 | `Dell Inspiron 7460`                                                                       |
+| 操作系统 | `macOS Big Sur Public Beta1(20A5343j)` && `macOS Catania 10.15.6(19G2005)` && `Windows 10` |
+| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核                                                       |
+| 声卡     | `ALC256`                                                                                   |
+| 网卡     | 已更换为 `DW1560`                                                                          |
 
 ## OC
 
 - 支持安装、升级和日常使用（不能保证都可以顺利安装，安装或升级时请自行在`boot-args`里添加`-v`）
-- 支持`macOS Mojave、macOS Big Sur Devloper Beta1~Beta4、macOS Big Sur Public Beta1`,理论上支持`macOS High Sierra/macOS Mojave`
+- 支持`macOS Catania、macOS Big Sur Devloper Beta1~Beta4、macOS Big Sur Public Beta1`,理论上支持`macOS High Sierra/macOS Mojave`
 - CPU 原生支持，变频正常
 - 显卡原生支持，`Lilu+WEG`
 - 声卡正常
@@ -67,8 +67,8 @@
   - `Big Sur Developer Beta4(20A5343i)`OTA 升级`Big Sur Public Beta1(20A5343j)`
 - 2020-08-08
   - 测试安装`macOS Big Sur Developer Beta3(20A5323I)`
-  - 测试安装`macOS Mojave 10.15.6(19G2005)`
-  - `macOS Mojave 10.15.6(19G2005)`OTA 升级`Big Sur Public Beta1(20A5343j)`
+  - 测试安装`macOS Catania 10.15.6(19G2005)`
+  - `macOS Catania 10.15.6(19G2005)`OTA 升级`Big Sur Public Beta1(20A5343j)`
 - 2020-08-09
   - 测试安装`Big Sur Public Beta1(20A5343j)`
 
