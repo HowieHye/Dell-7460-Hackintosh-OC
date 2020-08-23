@@ -4,7 +4,7 @@
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
-此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/github/v/release/williambj1/OpenCore-Factory?color=orange&include_prereleases&label=Release)](https://github.com/williambj1/OpenCore-Factory/releases)
+此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/static/v1?label=Releases&message=2020-08-23&color=orange)](https://github.com/williambj1/OpenCore-Factory/releases)
 
 目前已经测试过
 - 安装
