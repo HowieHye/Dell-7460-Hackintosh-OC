@@ -38,16 +38,30 @@
 
 仓库地址:[一键开启 HIDPI](https://github.com/xzhih/one-key-hidpi)
 
+### 非Big Sur用户
+
 > 在终端运行
 >
 > ```bash
 > bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
 > ```
->
-> `Big Sur`用户运行
+> 
+> 网络不好的可以用这条
 >
 > ```bash
+> bash -c "$(curl -fsSL https://gitee.com/howiehye/one-key-hidpi/raw/master/hidpi.sh)"
+> ```
+
+### Big Sur用户
+
+> ```bash
 > bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev/hidpi.sh)"
+> ```
+> 
+> 网络不好的可以用这条
+> 
+> ```bash
+> bash -c "$(curl -fsSL https://gitee.com/howiehye/one-key-hidpi/raw/dev/hidpi.sh)"
 > ```
 
 ## 系统截图
