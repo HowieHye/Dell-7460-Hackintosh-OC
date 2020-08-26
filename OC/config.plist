@@ -1425,7 +1425,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>gfxrst=1 -disablegfxfirmware agdpmod=pikera igfxonln=1 igfxagdc=0</string>
+				<string>igfxonln=1 igfxagdc=0</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
