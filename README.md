@@ -1,5 +1,7 @@
 # Dell-7460-Hackintosh-OC
 
+EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://howiehye.top/post/9ff9620/)
+
 ## 说明
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
