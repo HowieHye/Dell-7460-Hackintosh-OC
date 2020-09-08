@@ -28,6 +28,7 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 ## OC
 
+- OC版本：0.6.1
 - 支持安装、升级和日常使用（不能保证都可以顺利安装，安装或升级时请自行在`boot-args`里添加`-v`）
 - 支持`macOS Catalina、macOS Big Sur Devloper Beta1~Beta5、macOS Big Sur Public Beta1~Beta2`,理论上支持`macOS High Sierra/macOS Mojave`
 - CPU 原生支持，变频正常
