@@ -6,27 +6,17 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
-此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/static/v1?label=Releases&message=2020-09-04&color=orange)](https://github.com/williambj1/OpenCore-Factory/releases)
-
-目前已经测试过
-- 安装
-  - `macOS Catalina 10.15.6(19G2005)`
-  - `macOS Big Sur Developer Beta3(20A5323I)`
-  - `macOS Big Sur Public Beta1(20A5343j)`
-- 升级
-  - `macOS Catalina 10.15.6(19G2005)`OTA 直升`macOS Big Sur Public Beta1(20A5343j)`
-  - `macOS Catalina 10.15.6(19G2005)`OTA 直升`macOS Big Sur Public Beta2(20A5354i)`
-  - `macOS Big Sur Public Beta1(20A5343j)`OTA 直升`macOS Big Sur Public Beta2(20A5354i)`
+此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/static/v1?label=Releases&message=2020-09-25&color=orange)](https://github.com/williambj1/OpenCore-Factory/releases)
 
 ## 电脑配置
 
-| 规格     | 型号                                                                                        |
-| -------- | ------------------------------------------------------------------------------------------- |
-| 电脑型号 | `Dell Inspiron 7460`                                                                        |
-| 操作系统 | `macOS Big Sur Public Beta2(20A5354i)` && `Windows 10` |
-| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核                                                        |
-| 声卡     | `ALC256`                                                                                    |
-| 网卡     | 已更换为 `DW1560`                                                                           |
+| 规格     | 型号                                                  |
+| -------- | ----------------------------------------------------- |
+| 电脑型号 | `Dell Inspiron 7460`                                  |
+| 操作系统 | `macOS Big Sur Public Beta(20A5374i)` && `Windows 10` |
+| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核                  |
+| 声卡     | `ALC256`                                              |
+| 网卡     | 已更换为 `DW1560`                                     |
 
 ## OC
 
@@ -81,24 +71,6 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 ![蓝牙](https://img.howiehye.top//img/20200807205020.png)
 
 ![Hacintool](https://img.howiehye.top//img/20200807205115.png)
-
-## LOG
-
-- 2020-08-05
-  - 更新`OC0.6.0`
-- 2020-08-06
-  - 更新`config.plist` , 修复安装/进入`Recovery`时显示俄语的错误
-  - 已经测试`Big Sur Beta3`全新引导安装
-- 2020-08-07
-  - `Big Sur Developer Beta4(20A5343i)`OTA 升级`Big Sur Public Beta1(20A5343j)`
-- 2020-08-08
-  - 测试安装`macOS Big Sur Developer Beta3(20A5323I)`
-  - 测试安装`macOS Catalina 10.15.6(19G2005)`
-  - `macOS Catalina 10.15.6(19G2005)`OTA 升级`Big Sur Public Beta1(20A5343j)`
-- 2020-08-09
-  - 测试安装`Big Sur Public Beta1(20A5343j)`
-- 2020-08-21
-  - 升级`macOS Big Sur Public Beta2(20A5354i)`
 
 ## 其他说明
 
