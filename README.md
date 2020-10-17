@@ -6,14 +6,14 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
-此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/static/v1?label=Releases&message=2020-09-25&color=orange)](https://github.com/williambj1/OpenCore-Factory/releases/tag/2020-09-25)
+此分支的`OpenCore`来自[OpenCore-Factory](https://github.com/williambj1/OpenCore-Factory) [![Release](https://img.shields.io/static/v1?label=Releases&message=2020-10-16&color=orange)](https://github.com/williambj1/OpenCore-Factory/releases/tag/2020-10-16)
 
 ## 电脑配置
 
 | 规格     | 型号                                           |
 | -------- | ---------------------------------------------- |
 | 电脑型号 | `Dell Inspiron 7460`                           |
-| 操作系统 | `macOS Big Sur Beta(20A5384c)` && `Windows 10` |
+| 操作系统 | `macOS Big Sur Beta(20A5395g)` && `Windows 10` |
 | 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核           |
 | 声卡     | `ALC256`                                       |
 | 网卡     | 已更换为 `DW1560`                              |
