@@ -1,5 +1,11 @@
 # Dell-7460-Hackintosh-OC
 
+唉！`Apple`一鸽再鸽，`Big Sur`正式版还是没有来。
+
+由于考研时间越来越近，所以暂时就停止维护啦，待我考研归来，又是一条好汉！
+
+这个分支的EFI貌似只能支持到`Big Sur Beta9`，升级`Big Sur Beta10`用`dev`分支吧！
+
 EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://howiehye.top/post/9ff9620/)
 
 ## 说明
