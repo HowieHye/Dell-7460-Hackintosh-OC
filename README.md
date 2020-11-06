@@ -4,7 +4,7 @@
 
 由于考研时间越来越近，所以暂时就停止维护啦，待我考研归来，又是一条好汉！
 
-这个分支的EFI貌似只能支持到`Big Sur Beta9`，升级`Big Sur Beta10`用`dev`分支吧！
+~~这个分支的EFI貌似只能支持到`Big Sur Beta9`，升级`Big Sur Beta10`用`dev`分支吧！~~
 
 EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://howiehye.top/post/9ff9620/)
 
@@ -17,14 +17,14 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 | 规格     | 型号                                           |
 | -------- | ---------------------------------------------- |
 | 电脑型号 | `Dell Inspiron 7460`                           |
-| 操作系统 | `macOS Big Sur Beta(20A5384c)` && `Windows 10` |
+| 操作系统 | `macOS Big Sur Beta(20B5022a)` && `Windows 10` |
 | 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核           |
 | 声卡     | `ALC256`                                       |
 | 网卡     | 已更换为 `DW1560`                              |
 
 ## OC
 
-- OC版本：0.6.2
+- OC版本：0.6.3
 - 支持安装、升级和日常使用（不能保证都可以顺利安装，安装或升级时请自行在`boot-args`里添加`-v`）
 - 支持`macOS Catalina、macOS Big Sur Beta`,理论上支持`macOS High Sierra/macOS Mojave`
 - CPU 原生支持，变频正常
