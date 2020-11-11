@@ -397,32 +397,6 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fix RTC _STA bug</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>oAqTU1RBUwE=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>oAqRCv8L//8=</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>RFNEVA==</data>
-			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1092,24 +1066,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>UVC2FaceTimeHD.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1333,6 +1289,8 @@
 			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
@@ -1499,7 +1457,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>igfxonln=1 igfxagdc=0 alcid=21</string>
+				<string>igfxonln=1 igfxagdc=0 alcid=21 -v</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1536,7 +1494,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<true/>
+			<false/>
 			<key>MLB</key>
 			<string>C02718306GUHRPCA8</string>
 			<key>ProcessorType</key>
@@ -1689,7 +1647,7 @@
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ConsoleMode</key>
-			<string>Max</string>
+			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
@@ -1761,7 +1719,7 @@
 			<key>ReleaseUsbOwnership</key>
 			<true/>
 			<key>RequestBootVarRouting</key>
-			<true/>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
