@@ -14,15 +14,17 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
+> ACPI Hotpatch来自[OC-little](https://github.com/daliansky/OC-little)
+
 ## 电脑配置
 
-| 规格     | 型号                                           |
-| -------- | ---------------------------------------------- |
-| 电脑型号 | `Dell Inspiron 7460`                           |
+| 规格     | 型号                                        |
+| -------- | ------------------------------------------- |
+| 电脑型号 | `Dell Inspiron 7460`                        |
 | 操作系统 | `macOS Big Sur Beta(20B28)` && `Windows 10` |
-| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核           |
-| 声卡     | `ALC256`                                       |
-| 网卡     | 已更换为 `DW1560`                              |
+| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核        |
+| 声卡     | `ALC256`                                    |
+| 网卡     | 已更换为 `DW1560`                           |
 
 ## OC
 
@@ -86,6 +88,8 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 ## 鸣谢
 
-- [@黑果小兵](https://github.com/daliansky/)
-
-- [@冰水加劲](https://github.com/xzhih/)
+- [黑果小兵](https://github.com/daliansky/)
+- [冰水加劲](https://github.com/xzhih/)
+- [Xjn's Blog](https://blog.xjn819.com/)
+- [Steve Zheng](https://github.com/stevezhengshiqi)
+- [Sukka](https://github.com/SukkaW)
