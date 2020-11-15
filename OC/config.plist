@@ -1459,7 +1459,7 @@
 				<key>boot-args</key>
 				<string>igfxonln=1 igfxagdc=0 alcid=21 -v</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
@@ -1474,6 +1474,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
