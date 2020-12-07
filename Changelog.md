@@ -1,7 +1,12 @@
 # Change log
 
 > 目前 OC 版本: `0.6.3`
-> 系统版本: `macOS Big Sur(20B29)`
+> 系统版本: `macOS Big Sur(20C5061b)`
+
+## 2020-12-7
+
+- 更新`RealtekRTL8111`至`2.4.0d5`
+- 删除`ProcessorType`以解决`CPU`型号识别错误的问题
 
 ## 2020-11-16
 

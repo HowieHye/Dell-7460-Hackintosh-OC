@@ -1329,7 +1329,7 @@
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -1499,7 +1499,7 @@
 			<key>MLB</key>
 			<string>C02720270GUHRPCCB</string>
 			<key>ProcessorType</key>
-			<integer>1541</integer>
+			<integer>0</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ROM</key>
