@@ -3,6 +3,11 @@
 > 目前 OC 版本: `0.6.4`
 > 系统版本: `macOS Big Sur(20C5061b)`
 
+## 2020-12-11
+
+- Change `csr-active-config`
+- 添加`AirPortBrcm4360_Injector.kext`并限制最高内核`19.99.99`
+
 ## 2020-12-08
 
 - 更新`OC`至`0.6.4`
