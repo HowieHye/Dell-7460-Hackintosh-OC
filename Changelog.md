@@ -3,6 +3,9 @@
 > 目前 OC 版本: `0.6.4`
 > 系统版本: `macOS Big Sur(20C5061b)`
 
+## 2020-12-28
+
+- 更换一套主题
 ## 2020-12-11
 
 - Change `csr-active-config`
