@@ -1,15 +1,5 @@
 # Dell-7460-Hackintosh-OC
 
-`macOS Big Sur` 正式版终于来啦！！！
-
-我要消失一个半月啦！！！
-
-~~唉！`Apple`一鸽再鸽，`Big Sur`正式版还是没有来。~~
-
-~~由于考研时间越来越近，所以暂时就停止维护啦，待我考研归来，又是一条好汉！~~
-
-~~这个分支的EFI貌似只能支持到`Big Sur Beta9`，升级`Big Sur Beta10`用`dev`分支吧！~~
-
 EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://howiehye.top/post/9ff9620/)
 
 ## 说明
@@ -23,6 +13,7 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 此部分内容摘自Sukka的[从 Clover 到 OpenCore —— Clover 迁移 OpenCore 指南 | Sukka's Blog](https://blog.skk.moe/post/from-clover-to-opencore)
 
 重启到 OpenCore 引导之前，务必清理掉 Clover 的残留文件：
+
 ```shell
 # 删除 Clover 位于系统偏好设置中的面板
 sudo rm -rf "/Library/PreferencePanes/Clover.prefPane"
@@ -50,17 +41,17 @@ rm -rf '/Library/Application Support/Clover/CloverWrapper.sh'
 
 ## 电脑配置
 
-| 规格     | 型号                                        |
-| -------- | ------------------------------------------- |
-| 电脑型号 | `Dell Inspiron 7460`                        |
-| 操作系统 | `macOS Big Sur Beta(20C5061b)` && `Windows 10` |
-| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核        |
-| 声卡     | `ALC256`                                    |
-| 网卡     | 已更换为 `DW1560`                           |
+| 规格     | 型号                                           |
+| -------- | ---------------------------------------------- |
+| 电脑型号 | `Dell Inspiron 7460`                           |
+| 操作系统 | `macOS Big Sur Beta(20D5029f)` && `Windows 10` |
+| 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核           |
+| 声卡     | `ALC256`                                       |
+| 网卡     | 已更换为 `DW1560`                              |
 
 ## OC
 
-- OC版本：0.6.4
+- OC版本：0.6.5
 - 支持安装、升级和日常使用（不能保证都可以顺利安装，安装或升级时请自行在`boot-args`里添加`-v`）
 - 支持`macOS Catalina、macOS Big Sur Beta`,理论上支持`macOS High Sierra/macOS Mojave`
 - CPU 原生支持，变频正常
