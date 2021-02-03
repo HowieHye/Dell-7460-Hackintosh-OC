@@ -1,7 +1,19 @@
 # Change log
 
-> 目前 OC 版本: `0.6.5`
-> 系统版本: `macOS Big Sur(20C5061b)`
+> 目前 OC 版本: `0.6.6`
+> 系统版本: `macOS Big Sur(20D64)`
+
+## 2021-02-03
+
+- 更新`OC`至`0.6.6`
+- 更新`AppleALC`至`1.5.7`
+- 更新`BrcmPatchRAM`至`2.6.5`
+- 更新`Lilu`至`1.5.1`
+- 更新`VirtualSMC`至`1.2.0`
+- 更新`VoodooInput`至`1.1.0`
+- 更新`VoodooPSController`至`2.2.1`
+- 更新`WhateverGreen`至`1.4.7`
+- 更换一套主题, 不喜勿喷
 
 ## 2021-01-06
 
