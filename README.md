@@ -60,6 +60,14 @@ rm -rf '/Library/Application Support/Clover/CloverWrapper.sh'
 - 无线网卡更换为`DW1560`
 - 显示器亮度调节正常
 
+## CFG
+
+CFG解锁 -> https://howiehye.top/post/7a13585/
+
+出现任何硬件问题本人不负责任。
+
+EFI 默认的`config.plist`是解锁CFG之后的，如果你未解锁，请将`config.plist`随便重命名，然后将`config_locked.plist`重命名为`config.plist`后使用。
+
 ## Hidpi
 
 仓库地址:[一键开启 HIDPI](https://github.com/xzhih/one-key-hidpi)
