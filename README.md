@@ -1,6 +1,6 @@
 # Dell-7460-Hackintosh-OC
 
-此分支EFI为解锁`CFG`专用，教程：
+此分支EFI为解锁`CFG`专用，教程：https://howiehye.top/post/7a13585/
 
 ## 鸣谢
 
