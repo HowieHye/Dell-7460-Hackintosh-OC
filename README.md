@@ -4,6 +4,8 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 ## 说明
 
+由于我已经更换`Macbook Air`，所以本仓库不再更新维护，`OC`最终版本为`0.6.7`
+
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
 > ACPI Hotpatch来自[OC-little](https://github.com/daliansky/OC-little)

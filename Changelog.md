@@ -3,6 +3,10 @@
 > 目前 OC 版本: `0.6.7`
 > 系统版本: `macOS Big Sur 11.2.2(20D80)`
 
+## 2021-04-10
+
+- End of  Support, thx a lot
+
 ## 2021-03-02
 
 - 支持解锁CFG
