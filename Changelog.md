@@ -1,9 +1,11 @@
 # Change log
 
 > 目前 OC 版本: `0.7.9`
-> 系统版本: `macOS Monterey 12.2.1 (21D62)`
+> 系统版本: `macOS Monterey 12.3 (21E230)`
 
 ## 2022-03-11
+
+- Support macOS Monterey 12.3 (21E230)
 
 - Update OC to `0.7.9`
 - Update a lot kexts

@@ -4,9 +4,11 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 ## 说明
 
-～～由于我已经更换`Macbook Air`，所以本仓库不再更新维护，`OC`最终版本为`0.6.7`～～
+~~由于我已经更换`Macbook Air`，所以本仓库不再更新维护，`OC`最终版本为`0.6.7`~~
 
 Attention: Busy with study, not update frequently.
+
+`Universal Control`没弄出来，不晓得啥情况。
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
@@ -48,7 +50,7 @@ rm -rf '/Library/Application Support/Clover/CloverWrapper.sh'
 | 规格     | 型号                                        |
 | -------- | ------------------------------------------- |
 | 电脑型号 | `Dell Inspiron 7460`                        |
-| 操作系统 | `macOS Monterey 12.2.1 (21D62)` && `Windows 10` |
+| 操作系统 | `macOS Monterey 12.3 (21E230)` && `Windows 10` |
 | 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核        |
 | 声卡     | `ALC256`                                    |
 | 网卡     | 已更换为 `DW1560`                           |
