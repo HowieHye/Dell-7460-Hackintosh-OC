@@ -4,7 +4,9 @@ EFI使用有问题？请参考这篇文档[黑苹果安装指北手册](https://
 
 ## 说明
 
-由于我已经更换`Macbook Air`，所以本仓库不再更新维护，`OC`最终版本为`0.6.7`
+～～由于我已经更换`Macbook Air`，所以本仓库不再更新维护，`OC`最终版本为`0.6.7`～～
+
+Attention: Busy with study, not update frequently.
 
 此 EFI 适用于戴尔燃 7000 系列第二代型号为 7460 的笔记本电脑。
 
@@ -46,16 +48,16 @@ rm -rf '/Library/Application Support/Clover/CloverWrapper.sh'
 | 规格     | 型号                                        |
 | -------- | ------------------------------------------- |
 | 电脑型号 | `Dell Inspiron 7460`                        |
-| 操作系统 | `macOS Big Sur 11.2.2(20D80)` && `Windows 10` |
+| 操作系统 | `macOS Monterey 12.2.1 (21D62)` && `Windows 10` |
 | 处理器   | `Intel Core i7-7500U @ 2.70GHz` 双核        |
 | 声卡     | `ALC256`                                    |
 | 网卡     | 已更换为 `DW1560`                           |
 
 ## OC
 
-- OC版本：0.6.7
+- OC版本：0.7.9
 - 支持安装、升级和日常使用（不能保证都可以顺利安装，安装或升级时请自行在`boot-args`里添加`-v`）
-- 支持`macOS Catalina、macOS Big Sur Beta`,理论上支持`macOS High Sierra/macOS Mojave`
+- 支持`macOS Big Sur、macOS Monterey`,理论上支持`macOS High Sierra/macOS Mojave/macOS Catalina`
 - CPU 原生支持，变频正常
 - 显卡原生支持，`Lilu+WEG`
 - 声卡正常
@@ -64,6 +66,8 @@ rm -rf '/Library/Application Support/Clover/CloverWrapper.sh'
 
 ## CFG
 
+**最新的 macOS Monterey 下没测试，自行测试**
+
 CFG解锁 -> https://howiehye.top/post/7a13585/
 
 出现任何硬件问题本人不负责任。
@@ -71,6 +75,10 @@ CFG解锁 -> https://howiehye.top/post/7a13585/
 EFI 默认的`config.plist`是解锁CFG之后的，如果你未解锁，请将`config.plist`随便重命名，然后将`config_locked.plist`重命名为`config.plist`后使用。
 
 ## Hidpi
+
+xzhih的脚本在macOS Monterey下未做测试，自行测试
+
+推荐另外一个项目[BetterDummy](https://github.com/waydabber/BetterDummy)
 
 仓库地址:[一键开启 HIDPI](https://github.com/xzhih/one-key-hidpi)
 
@@ -86,6 +94,7 @@ EFI 默认的`config.plist`是解锁CFG之后的，如果你未解锁，请将`c
 > bash -c "$(curl -fsSL https://gitee.com/howiehye/one-key-hidpi/raw/master/hidpi.sh)"
 > ```
 
+
 ## 截图
 
 ![02034029](https://cdn.jsdelivr.net/gh/HowieHye/CDN@master/img/02034029.4wq9mpvmx5s0.png)
@@ -96,7 +105,6 @@ EFI 默认的`config.plist`是解锁CFG之后的，如果你未解锁，请将`c
 
 ## 其他说明
 
-- 安装`macOS Big Sur`的过程很漫长 , 请耐心等待 , 不一定是有错误
 - 每次升级或替换新的`EFI`后 , 最好重置一下`NVRAM`
 
 ## 鸣谢

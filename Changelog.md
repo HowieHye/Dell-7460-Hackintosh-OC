@@ -1,15 +1,21 @@
 # Change log
 
-> 目前 OC 版本: `0.6.7`
-> 系统版本: `macOS Big Sur 11.2.2(20D80)`
+> 目前 OC 版本: `0.7.9`
+> 系统版本: `macOS Monterey 12.2.1 (21D62)`
+
+## 2022-03-11
+
+- Update OC to `0.7.9`
+- Update a lot kexts
+- Change theme
 
 ## 2021-04-10
 
-- End of  Support, thx a lot
+- ~~End of  Support, thx a lot~~
 
 ## 2021-03-02
 
-- 支持解锁CFG
+- 支持解锁CFG	
 
 - 更新`OC`至`0.6.7`
 - 更新`AppleALC`至`1.5.8`
