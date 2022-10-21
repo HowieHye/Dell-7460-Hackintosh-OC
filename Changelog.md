@@ -1,7 +1,14 @@
 # Change log
 
-> 目前 OC 版本: `0.7.9`
-> 系统版本: `macOS Monterey 12.3 (21E230)`
+> 目前 OC 版本: `0.8.5`
+> 系统版本: `macOS Ventura 13.0 RC 2 (22A380)`
+
+## 2022-10-21
+
+- Support macOS Ventura 13.0 RC 2 (22A380)
+
+- Update OC to `0.8.5`
+- Update a lot kexts
 
 ## 2022-03-11
 
